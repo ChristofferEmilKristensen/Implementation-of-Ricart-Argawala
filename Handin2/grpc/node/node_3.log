@@ -1,0 +1,21 @@
+2025/11/12 18:04:09.991194 clientNode 3 listening at localhost:5003
+2025/11/12 18:04:14.989693 Node %!s(int=3) requesting access to critical section...
+2025/11/12 18:04:14.998640 clientNode 3 received REPLY from 2 (timestamp: 2)
+2025/11/12 18:04:14.998706 del pending from "localhost:5002", left=1
+2025/11/12 18:04:14.998640 clientNode 3 received REPLY from 1 (timestamp: 2)
+2025/11/12 18:04:14.998757 del pending from "localhost:5001", left=0
+2025/11/12 18:04:14.998784 clientNode 3 entering critical section...
+2025/11/12 18:04:14.999298 Sent REQUEST to localhost:5002 (ts=1)
+2025/11/12 18:04:14.999298 Sent REQUEST to localhost:5001 (ts=1)
+2025/11/12 18:04:14.999499 Node 3 waiting for REPLYs from peers...
+2025/11/12 18:04:15.247769 clientNode 3 received REQUEST from 1 (timestamp: 3)
+2025/11/12 18:04:15.247793 Node 3 deferred REPLY to localhost:5001
+2025/11/12 18:04:16.000086 Critical section: performing sensitive operation
+2025/11/12 18:04:16.173796 clientNode 3 received REQUEST from 2 (timestamp: 5)
+2025/11/12 18:04:16.173837 Node 3 deferred REPLY to localhost:5002
+2025/11/12 18:04:17.001303 clientNode 3 exiting critical section...
+2025/11/12 18:04:20.000673 Node %!s(int=3) requesting access to critical section...
+2025/11/12 18:04:20.252307 clientNode 3 received REQUEST from 1 (timestamp: 7)
+2025/11/12 18:04:20.253765 Node 3 sent REPLY to 1
+2025/11/12 18:04:21.178455 clientNode 3 received REQUEST from 2 (timestamp: 9)
+2025/11/12 18:04:21.179721 Node 3 sent REPLY to 2
